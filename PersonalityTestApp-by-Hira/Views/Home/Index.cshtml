@@ -1,0 +1,18 @@
+﻿@{
+    ViewBag.Title = "Personality Test";
+}
+<h2>Choose an Image That Speaks to You</h2>
+<form method="post" action="/Home/Result">
+    <button type="submit" name="choice" value="sun">
+        <img src="~/Content/sun.png" width="200" />
+    </button>
+    <button type="submit" name="choice" value="moon">
+        <img src="~/Content/moon.png" width="200" />
+    </button>
+    <button type="submit" name="choice" value="tree">
+        <img src="~/Content/tree.png" width="200" />
+    </button>
+    <button type="submit" name="choice" value="ocean">
+        <img src="~/Content/ocean.png" width="200" />
+    </button>
+</form>
